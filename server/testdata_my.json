@@ -1,0 +1,177 @@
+[
+    {
+        "idNode": 1,
+        "fio": "Макаров Артём Александрович",
+        "sex": "м",
+        "idParent": 100,
+        "idRole": 1,
+        "idZone": null,
+        "idInstanse": 1,
+        "level": "Маршал",
+        "levelOrder": 10,
+        "resources": [
+            {
+                "activerate": 1000
+            },
+            {
+                "passiverate": 1000
+            },
+            {
+                "money": 1000
+            },
+            {
+                "level": 10
+            }
+        ]
+    },
+    {
+        "idNode": 2,
+        "fio": "Иванов Иван Иванович",
+        "sex": "м",
+        "idParent": 99,
+        "idRole": 2,
+        "idZone": null,
+        "idInstanse": 2,
+        "level": "Солдат",
+        "levelOrder": 1,
+        "resources": [
+            {
+                "activerate": 0
+            },
+            {
+                "passiverate": 40
+            },
+            {
+                "money": 100
+            },
+            {
+                "level": 1
+            }
+        ]
+    },
+    {
+        "idNode": 3,
+        "fio": "Петров Петр Петрович",
+        "sex": "м",
+        "idParent": 98,
+        "idRole": 3,
+        "idZone": null,
+        "idInstanse": 3,
+        "level": "Сержант",
+        "levelOrder": 2,
+        "resources": [
+            {
+                "activerate": 100
+            },
+            {
+                "passiverate": 500
+            },
+            {
+                "money": 200
+            },
+            {
+                "level": 2
+            }
+        ]
+    },
+    {
+        "idNode": 4,
+        "fio": "Иванова Мария Ивановна",
+        "sex": "Ж",
+        "idParent": 97,
+        "idRole": 4,
+        "idZone": null,
+        "idInstanse": 4,
+        "level": "Прапорщик",
+        "levelOrder": 3,
+        "resources": [
+            {
+                "activerate": 200
+            },
+            {
+                "passiverate": 400
+            },
+            {
+                "money": 200
+            },
+            {
+                "level": 3
+            }
+        ]
+    },
+    {
+        "idNode": 5,
+        "fio": "Кириллов Кирилл Кириллович",
+        "sex": "м",
+        "idParent": 96,
+        "idRole": 5,
+        "idZone": null,
+        "idInstanse": 5,
+        "level": "Лейтенант",
+        "levelOrder": 4,
+        "resources": [
+            {
+                "activerate": 300
+            },
+            {
+                "passiverate": 500
+            },
+            {
+                "money": 400
+            },
+            {
+                "level": 4
+            }
+        ]
+    },
+    {
+        "idNode": 6,
+        "fio": "Макаров Дмитрий Александрович",
+        "sex": "м",
+        "idParent": 100,
+        "idRole": 6,
+        "idZone": null,
+        "idInstanse": 6,
+        "level": "Полковник",
+        "levelOrder": 5,
+        "resources": [
+            {
+                "activerate": 400
+            },
+            {
+                "passiverate": 600
+            },
+            {
+                "money": 700
+            },
+            {
+                "level": 5
+            }
+        ]
+    },
+    {
+        "idNode": 7,
+        "fio": "Иванова Евгения Евгеньевна",
+        "sex": "ж",
+        "idParent": 94,
+        "idRole": 6,
+        "idZone": null,
+        "idInstanse": 6,
+        "level": "Генерал",
+        "levelOrder": 5,
+        "resources": [
+            {
+                "activerate": 800
+            },
+            {
+                "passiverate": 800
+            },
+            {
+                "money": 900
+            },
+            {
+                "level": 6
+            }
+        ]
+    }
+]

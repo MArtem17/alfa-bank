@@ -9,11 +9,25 @@ async function getFullData() {
     let listResFull = []
     var obj = {}
     for (let i = 0; i < listFull.length; i++) {
+        let money = 0, activerate = 0, passiverate = 0
+        let res = listFull[i].resources.split('},{')
+        for (let j = 0; j < res.length; j++) {
+            let parseVal = res[j].split(',')[1].split(':')[1].split("}")[0]
+            if (res[j].includes("ACTIVERATE")) {
+                activerate = Number(parseVal)
+            }
+            if (res[j].includes("PASSIVERATE")) {
+                passiverate = Number(parseVal)
+            }
+            if (res[j].includes("MONEY")) {
+                money = Number(parseVal)
+            }
+        }
         obj = {
             fio: listFull[i].fio,
             status: listFull[i].level,
-            rate: listFull[i].resources[0].activerate + listFull[i].resources[1].passiverate,
-            money: listFull[i].resources[2].money
+            rate: activerate + passiverate, //listFull[i].resources[0].activerate + listFull[i].resources[1].passiverate, - для testdata_my.json
+            money: money //listFull[i].resources[2].money - для testdata_my.json
         }
         listResFull.push(obj)
     }
